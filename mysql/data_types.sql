@@ -1,0 +1,39 @@
+-- mysql data types 
+-- 1.string
+	-- 1.char(size= 0 to 255 character)
+    -- 2.varchar(size= 0 to 65535 character)
+    -- 3.binary(size= 0 to 255 character but in the form of binary)
+    -- 4.varbinary(size= 0 to 65535 character but in the form of binary)
+    -- 5.tinytext(we can store till 255 character and that is fixed we cant add our lamitation)
+    -- 6.Text(size=65,535 data will saved in bytes)
+    -- 7.Mediumtext(size = 16,777,215 character )
+    -- 8.Longtext(size = 4,294,967,295 character)
+    -- 9.Tinyblob(size=255 bytes the data is stored in form of bytes)
+    -- 10.blob(size=65,535 bytes the data is stored in form of bytes)
+    -- 11.mediumblob(size=16,777,215 bytes the data is stored in form of bytes)
+    -- 12.Longblob(size=4,294,967,295 bytes the data is stored in form of bytes)
+    -- 13.Enum(val1,val2,val3)(list upto 65535, it will store data in form of list)
+    -- 14.Set(val1,val2,val3)(list upto 64, it will store data in form of list)
+-- 2.Numeric
+	-- 1. BIT(size) 1 to 64
+    -- 2. TINYINT(size) -128 to 127
+    -- 3. INT(size) -2147483648 to 2147483647
+    -- 4. INTEGER(size)
+    -- 5. SMALLINT(size) -32768 to 32767
+    -- 6. MEDIUMINT(size) -8388608 to 8388607
+    -- 7. BIGINT(size) -9223372036854775808 to 9223372036854775807 
+    -- 8. BOOL
+    -- 9. BOOLEAN 0/1(only 0 and 1 can be stored)
+    -- 10. FLOAT(p)
+    -- 11. DOUBLE(size, d) 255.568 (size is number before dot, d is double i.e number after dot we can define )
+    -- 12. DECIMAL(size, d) Size = 60 , d = 30
+    -- 13. DEC(size, d) 
+-- 3.Date and time
+	-- 1.Date (range = 1000-01-01 to 9999-12-31 and format will be yyyy-mm-dd cumpalsary)
+    -- 2.Datetime (to save date and time both)(in format YYYY-MM-DD hh:mm:ss)
+    -- 3.Timestamp (timestamp means past time we can store past datetime in form of timestamp)
+    -- 4.Time(to store time in format hh:mm:ss)
+    -- 5.Date(four digit format 1991)
+
+    
+
